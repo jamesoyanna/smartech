@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class ServiceBox extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 {
                     this.props.services.map((service, key) =>
                         <Col key={key} lg={4} md={6}>
@@ -20,7 +20,7 @@ class ServiceBox extends Component {
                         </Col>
                     )
                 }        
-            </React.Fragment>
+            </>
         );
     }
 }

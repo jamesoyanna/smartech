@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import routes from "./routes";
+//import routes from "./routes";
+import Layout from "./Layout/Layout";
 import {
   withRouter,
   Route,
@@ -14,6 +15,7 @@ import "./theme.scss";
 import "./assets/css/materialdesignicons.min.css";
 import "./assets/css/pe-icon-7.css";
 
+
 class App extends Component {
   constructor(props){
     super(props);
@@ -24,9 +26,7 @@ class App extends Component {
           <React.Fragment>
           <Router>
             <Switch>
-              {routes.map((route, idx) => (
-                <Route path={route.path} component={route.component} key={idx} />
-              ))}
+              <Route path='/' component={Layout}  />
             </Switch>
           </Router>
         </React.Fragment>

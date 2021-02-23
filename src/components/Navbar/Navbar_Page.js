@@ -12,8 +12,8 @@ import {
 import ScrollspyNav from "./scrollSpy";
 
 //Import Images
-import logolight from "../../assets/images/logo-light.png";
-import logodark from "../../assets/images/logo-dark.png";
+import logolight from "../../assets/images/logo.png";
+import logodark from "../../assets/images/logo.png";
 
 class NavbarPage extends Component {
     constructor(props){
@@ -63,7 +63,7 @@ class NavbarPage extends Component {
                                             ))} 
                                         </Nav>
                                             <div className="call-no">
-                                                <NavLink href="#" className={this.props.isLight === true ? "text-white" : "text-warning"}><i className="mdi mdi-phone mr-1"></i> +00 1234 5678 90</NavLink>
+                                                <NavLink href="#" className={this.props.isLight === true ? "text-white" : "text-warning"}><i className="mdi mdi-phone mr-1"></i> +234-8037-492</NavLink>
                                             </div>
                                     </ScrollspyNav>
                                     </Collapse>

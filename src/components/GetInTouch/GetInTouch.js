@@ -14,29 +14,24 @@ class GetInTouch extends Component {
                         <SectionTitle
                             title1="Get In "
                             title2="Touch"
-                            desc="Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero pulvinar hendrerit id lorem."
+                            desc="Get in touch with us at any of our business centers."
                         />
 
                         <Row>
                             <Col lg={4}>
                                 <div className="contact-address">
                                     <h4 className="text-dark mb-4">Contact Info</h4>
-                                    <p className="text-muted f-15">Sed perspici unade omnis natus error sit voluptatem accusantium doloremque minus cumque.</p>
-                                    <p className="text-muted f-15 mb-4">Et harum quidem rerum facilis est et expedita sit distinctio at libero.</p>
+                                    <p className="text-muted f-15">12, Adeniyi jones, Ikeja, Lagos.</p>
+                                    
                                 </div>
                                 <Row>
                                     <Col md={6}>
                                         <div className="contact-address">
-                                            <h5 className="text-dark mb-3 f-16">Address - A</h5>
-                                            <p className="text-muted f-15">3165 Roosevelt Wilson Riverside, CA 92507</p>
+                                            <h5 className="text-dark mb-3 f-16">Abuja Address</h5>
+                                            <p className="text-muted f-15">14, Utaku district, Wuse Abuja</p>
                                         </div>
                                     </Col>
-                                    <Col md={6}>
-                                        <div className="contact-address">
-                                            <h5 className="text-dark mb-3 f-16">Address - B</h5>
-                                            <p className="text-muted f-15">1121 Bombardier Way Southfield, MI 48075</p>
-                                        </div>
-                                    </Col>
+                                    
                                 </Row>
                             </Col>
 

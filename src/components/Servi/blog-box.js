@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class BlogBox extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 {
                     this.props.blogs.map((blog, key) =>
                             <Col lg={4} key={key} >
@@ -32,7 +32,7 @@ class BlogBox extends Component {
                             </Col>
                     )
                 }
-            </React.Fragment>
+            </>
         );
     }
 }
