@@ -59,6 +59,8 @@ class ScrollspyNav extends Component {
                 this.scrollTo(window.pageYOffset, 0, this.scrollDuration);
                 window.location.hash = "";
             });
+
+         window.removeEventListener("scroll", this.scrollSection, true);
         }
 
         document.querySelector("div[data-nav='list']").querySelectorAll("a").forEach((navLink) => {
@@ -78,9 +80,7 @@ class ScrollspyNav extends Component {
         window.addEventListener("scroll", this.scrollSection, true );
     }
 
-    componentWillUnmount(){
-        window.removeEventListener("scroll", this.scrollSection, true );
-    }
+   
     
     scrollSection = () => {
             let scrollSectionOffsetTop;
